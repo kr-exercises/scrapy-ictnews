@@ -11,5 +11,7 @@ Installation Guide:
 3- Install requirements:
 
     pip install -r requirements.txt
-4- 
+    
+4-  Start :
+
     scrapy runspider ict.py -o ictnews.csv
