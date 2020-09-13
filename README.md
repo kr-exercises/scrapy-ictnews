@@ -2,10 +2,14 @@ Installation Guide:
 
 1- Create virtual environment:
 
-  virtualenv epg-env
+    virtualenv epg-env
 
 2- Activate virtual environment:
 
-  source epg-env/bin/activate
+    source epg-env/bin/activate
  
-3-
+3- Install requirements:
+
+    pip install -r requirements.txt
+4- 
+    scrapy runspider ict.py -o ictnews.csv
